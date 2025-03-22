@@ -1,79 +1,96 @@
 ---
-title: "你的文章标题"
-layout: default
+layout: none
+title: 你的文章标题
+permalink: /
 ---
 
 <style>
   body {
+    text-align: center;
     font-family: Arial, sans-serif;
-    text-align: center;
-    max-width: 800px;
-    margin: auto;
   }
-  h1, h2 {
-    text-align: center;
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
+  .subtitle {
+    font-size: 22px;
+    font-weight: normal;
   }
-  .section {
-    text-align: left;
-    margin-top: 40px;
+  .author {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  .affiliation {
+    font-size: 16px;
+    color: gray;
+  }
+  .highlight {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+  }
+  .links img {
+    width: 80px;
+    margin: 10px;
+  }
+  .links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
   }
 </style>
 
-# 你的文章标题
-
-📄 **作者**: 你的名字  
-🔗 **代码仓库**: [GitHub Repo](https://github.com/your-username/your-repo)  
-📅 **发布日期**: YYYY-MM-DD  
+# **你的文章标题**
+<span class="subtitle">文章副标题（可选）</span>
 
 ---
 
-## 📌 摘要
-<div class="section">
-在这里写你的文章摘要。
+### **作者**
+**你的名字**<sup>1,2</sup> &nbsp;&nbsp;
+**合作者 A**<sup>1</sup> &nbsp;&nbsp;
+**合作者 B**<sup>2,3</sup>  
+<sup>1</sup> 机构 A &nbsp;&nbsp; <sup>2</sup> 机构 B &nbsp;&nbsp; <sup>3</sup> 机构 C  
+
+*Equal Contribution（如果适用）*
+
+---
+
+### **会议/期刊**
+**WACV 2025**  
+Ranked **5th** in the **VOTS Challenge** at **ECCV 2024**  
+
+---
+
+### **论文 & 代码**
+<div class="links">
+  <a href="你的论文链接">
+    <img src="你的论文图片链接" alt="Paper">
+    <br>**Paper**
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="你的补充材料链接">
+    <img src="你的补充材料图片链接" alt="Supplementary">
+    <br>**Supplementary**
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="你的GitHub链接">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Code">
+    <br>**Code**
+  </a>
 </div>
 
 ---
 
-## 📊 数据集介绍
-<div class="section">
-在这里介绍你使用的数据集，包括数据来源、数据预处理等。
-
-**示例数据可视化：**
-![示例数据可视化](path/to/dataset_image.png)
-</div>
+### **摘要**
+在这里写你的文章摘要...
 
 ---
 
-## 🔬 实验方法
-<div class="section">
-在这里描述你的实验方法，包括模型架构、训练细节等。
-
-**实验流程示意图：**
-![实验流程](path/to/method_diagram.png)
-</div>
+### **数据集与实验**
+在这里写数据集的介绍以及实验方法...
 
 ---
 
-## 📈 实验结果
-<div class="section">
-在这里展示你的实验结果，包括定量分析（表格、数值结果）和定性分析（可视化结果）。
-
-**实验结果示意图：**
-![实验结果](path/to/results_image.png)
-</div>
-
----
-
-## 📢 结论与未来工作
-<div class="section">
-在这里写总结和未来可能的改进方向。
-</div>
-
----
-
-📩 **联系方式**: 你的邮箱或个人主页
+### **实验结果**
+在这里放实验图表，描述实验结果...
