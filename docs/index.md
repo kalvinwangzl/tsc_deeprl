@@ -56,7 +56,7 @@ permalink: /
   </a>
 </div>
 
-<div style="text-align: left;">
+<div style="text-align: left; display: block;">
 
 ### **Abstract**
 在这里写你的文章摘要...
