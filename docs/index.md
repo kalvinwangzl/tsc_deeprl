@@ -25,6 +25,7 @@ permalink: /
     text-align: center; /* 作者居中对齐 */
     font-size: 18px;
     margin: 5px 0;
+    line-height: 1.6; /* 增加行间距，避免文字过于紧凑 */
   }
   .affiliation {
     text-align: center; /* 所属机构居中对齐 */
@@ -58,10 +59,10 @@ permalink: /
 # **A CoLight-DDQN Approach for Adaptive Traffic Signal Control**
 
 <div class="author">
-  **Tongyu Liu**<sup>1</sup> &nbsp;&nbsp;
-  **Zile Wang**<sup>1</sup> &nbsp;&nbsp;
-  **Alaa Khamis Rashwan**<sup>1,2</sup>  
-  <sup>1</sup> University of Toronto &nbsp;&nbsp; <sup>2</sup> KFUPM
+  <p><strong>Tongyu Liu</strong><sup>1</sup> &nbsp;&nbsp;
+  <strong>Zile Wang</strong><sup>1</sup> &nbsp;&nbsp;
+  <strong>Alaa Khamis Rashwan</strong><sup>1,2</sup></p>
+  <p><sup>1</sup> University of Toronto &nbsp;&nbsp; <sup>2</sup> KFUPM</p>
 </div>
 
 <div class="links">
