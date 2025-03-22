@@ -56,6 +56,7 @@ permalink: /
   </a>
 </div>
 
+<div style="text-align: left;">
 
 ### **Abstract**
 在这里写你的文章摘要...
@@ -70,3 +71,5 @@ permalink: /
 
 ### **Results**
 在这里放实验图表，描述实验结果...
+
+</div>
