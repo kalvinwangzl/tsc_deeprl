@@ -44,7 +44,6 @@ permalink: /
 # **你的文章标题**
 <span class="subtitle">文章副标题（可选）</span>
 
----
 
 ### **作者**
 **你的名字**<sup>1,2</sup> &nbsp;&nbsp;
@@ -54,13 +53,11 @@ permalink: /
 
 *Equal Contribution（如果适用）*
 
----
 
 ### **会议/期刊**
 **WACV 2025**  
 Ranked **5th** in the **VOTS Challenge** at **ECCV 2024**  
 
----
 
 ### **论文 & 代码**
 <div class="links">
@@ -80,12 +77,10 @@ Ranked **5th** in the **VOTS Challenge** at **ECCV 2024**
   </a>
 </div>
 
----
 
 ### **摘要**
 在这里写你的文章摘要...
 
----
 
 ### **数据集与实验**
 在这里写数据集的介绍以及实验方法...
