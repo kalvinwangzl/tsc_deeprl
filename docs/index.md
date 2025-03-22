@@ -8,24 +8,26 @@ permalink: /
   body {
     text-align: left; /* 将正文内容居左对齐 */
     font-family: Arial, sans-serif;
+    margin: 0; /* 去除默认边距 */
+    padding: 0 20px; /* 设置左右页边距为 20px */
   }
   h1 {
-    text-align: center; /* 标题居中对齐 */
+    text-align: center; 
     font-size: 36px;
     font-weight: bold;
   }
   .subtitle {
-    text-align: center; /* 子标题居中对齐 */
+    text-align: center; 
     font-size: 22px;
     font-weight: normal;
   }
   .author {
-    text-align: center; /* 作者居中对齐 */
+    text-align: center; 
     font-size: 18px;
     margin: 5px 0;
   }
   .affiliation {
-    text-align: center; /* 所属机构居中对齐 */
+    text-align: center; 
     font-size: 16px;
     color: gray;
   }
@@ -35,7 +37,7 @@ permalink: /
     color: #555;
   }
   .links {
-    text-align: center; /* 代码链接居中对齐 */
+    text-align: center; 
   }
   .links img {
     width: 80px;
