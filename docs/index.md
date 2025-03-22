@@ -119,6 +119,6 @@ Traffic Signal Control (TSC) is a critical challenge in the optimization of urba
 <p>We also illustrate the average travel time and throughput curves of 3 RL methods for the two datasets over training rounds 15 to 80 to study their learning performance. Since the early stages of training are unstable, we visualize only the final 65 rounds to highlight the effects of training. The results are consistent with the average travel time analysis, confirming that CoLight-DDQN achieves the lowest average travel time. Additionally, the training process with DDQN exhibits significantly greater stability compared to DQN, with substantially fewer fluctuations, demonstrating the advantages of our approach. However, some sudden dips and spikes are observed in the curves, which can be attributed to outliers when the Q-network converges to a local optimum; these deviations are quickly corrected in subsequent steps. Among all methods, CoLight-DDQN with ATS exhibits the fewest dips and spikes, further validating its stability and robustness in training.</p>
 
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/dataset.png" alt="Image description" width="800" />
+    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/curve.png" alt="Image description" width="800" />
 </div>
 </div>
