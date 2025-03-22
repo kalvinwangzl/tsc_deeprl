@@ -24,7 +24,7 @@ permalink: /
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 200px;  /* 为标题添加页边距 */
+    margin-left: 200px;
     margin-right: 200px;
   }
   .subtitle {
@@ -33,7 +33,7 @@ permalink: /
     font-weight: normal;
   }
   .author {
-    text-align: center; /* 保证作者部分居中 */
+    text-align: center;
     font-size: 18px;
     margin: 5px 0;
     line-height: 1.6;
@@ -89,9 +89,9 @@ Traffic Signal Control (TSC) is a critical challenge in the optimization of urba
 
 ### **Methodology**
 <div class="left-align">
-The proposed CoLight-DDQN approach integrates Deep Q-learning into the traffic signal control problem by designing and comparing different state representations for traffic environment observation and network architectures. The following subsections provide a detailed explanation of the observation of environmental states and the Q-network structures.
+The proposed CoLight-DDQN approach integrates Deep Q-learning into the traffic signal control problem by designing and comparing different state representations for traffic environment observation and network architectures. The following subsections provide a detailed explanation of the observation of environmental states and the Q-network structures.<br>
 
-Inspired by conventional methods of MaxPressure, we first adopt the pressure of the intersections for the input of the Q-network which indicates how urgent it is to switch to specific signal phases. Such method makes decisions of actions based on the queue length on each lanes. But the pressure of the intersections does not consider the different traffic loads of different roads as they have different numbers of lanes. Therefore, the second set of observations instead uses the efficient traffic pressure of each traffic flow. It is the pressure divided by the number of lanes of each road. While pressure and efficient pressure successfully indicate the need for each action by the signal agent, one obvious information neglected in such a method is the vehicles that are running at the intersection. Here we use efficient pressure of traffic flow as well as demand of running vehicles for training of the Q-network. In such way we are able to reflect the impact of the information of both still and moving vehicles.
+Inspired by conventional methods of MaxPressure, we first adopt the pressure of the intersections for the input of the Q-network which indicates how urgent it is to switch to specific signal phases. Such method makes decisions of actions based on the queue length on each lanes. But the pressure of the intersections does not consider the different traffic loads of different roads as they have different numbers of lanes. Therefore, the second set of observations instead uses the efficient traffic pressure of each traffic flow. It is the pressure divided by the number of lanes of each road. While pressure and efficient pressure successfully indicate the need for each action by the signal agent, one obvious information neglected in such a method is the vehicles that are running at the intersection. Here we use efficient pressure of traffic flow as well as demand of running vehicles for training of the Q-network. In such way we are able to reflect the impact of the information of both still and moving vehicles.<br>
 
 In this paper, we explore the performance combining popular state-of-the-art methods DQN and DDQN. DQN was proposed to use neural network to represent the Q function in reinforcement learning and reached extraordinary performance on gaming, such becoming one of the most popular mechanism in RL methods. Also DDQN is proposed to eliminate overestimation of the reward of some actions. There are two networks, online network and target network, which are updated at different times. Such methods enables better performance of the algorithm. We apply the network structure of MPLight and CoLight. MPLight is already implemented with DDQN and CoLight was implemented with DDQN. Therefore we propose the DDQN version of CoLight.
 </div>
