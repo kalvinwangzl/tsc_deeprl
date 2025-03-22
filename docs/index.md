@@ -1,6 +1,6 @@
 ---
 layout: none
-title: 你的文章标题
+title: A CoLight-DDQN Approach for Adaptive Traffic Signal Control
 permalink: /
 ---
 
@@ -41,25 +41,14 @@ permalink: /
   }
 </style>
 
-# **你的文章标题**
-<span class="subtitle">文章副标题（可选）</span>
+# **A CoLight-DDQN Approach for Adaptive Traffic Signal Control**
 
 
-### **作者**
-**你的名字**<sup>1,2</sup> &nbsp;&nbsp;
-**合作者 A**<sup>1</sup> &nbsp;&nbsp;
-**合作者 B**<sup>2,3</sup>  
-<sup>1</sup> 机构 A &nbsp;&nbsp; <sup>2</sup> 机构 B &nbsp;&nbsp; <sup>3</sup> 机构 C  
+**Tongyu Liu**<sup>1</sup> &nbsp;&nbsp;
+**Zile Wang**<sup>1</sup> &nbsp;&nbsp;
+**Alaa Khamis Rashwan**<sup>1,2</sup>  
+<sup>1</sup> University of Toronto &nbsp;&nbsp; <sup>2</sup> KFUPM
 
-*Equal Contribution（如果适用）*
-
-
-### **会议/期刊**
-**WACV 2025**  
-Ranked **5th** in the **VOTS Challenge** at **ECCV 2024**  
-
-
-### **论文 & 代码**
 <div class="links">
   <a href="https://github.com/kalvinwangzl/Traffic-Signal-Control-with-CoLight-DDQN">
     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Code" width="50">
@@ -68,13 +57,16 @@ Ranked **5th** in the **VOTS Challenge** at **ECCV 2024**
 </div>
 
 
-### **摘要**
+### **Abstract**
 在这里写你的文章摘要...
 
 
-### **数据集与实验**
+### **Methodology**
 在这里写数据集的介绍以及实验方法...
 
 
-### **实验结果**
+### **Dataset**
+在这里放实验图表，描述实验结果...
+
+### **Results**
 在这里放实验图表，描述实验结果...
