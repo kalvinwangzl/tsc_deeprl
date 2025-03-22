@@ -6,29 +6,37 @@ permalink: /
 
 <style>
   body {
-    text-align: left; /* 设置正文内容为左对齐 */
+    text-align: left;
     font-family: Arial, sans-serif;
-    margin: 0 20px; /* 设置左右边距为 20px，顶部和底部为 0 */
+    margin: 0 20px;
     padding: 0;
   }
   h1 {
-    text-align: center; /* 标题居中对齐 */
+    text-align: center;
     font-size: 36px;
     font-weight: bold;
   }
+  h3 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;  /* 为标题添加页边距 */
+  }
   .subtitle {
-    text-align: center; /* 子标题居中对齐 */
+    text-align: center;
     font-size: 22px;
     font-weight: normal;
   }
   .author {
-    text-align: center; /* 作者居中对齐 */
+    text-align: center; /* 保证作者部分居中 */
     font-size: 18px;
     margin: 5px 0;
-    line-height: 1.6; /* 增加行间距，避免文字过于紧凑 */
+    line-height: 1.6;
   }
   .affiliation {
-    text-align: center; /* 所属机构居中对齐 */
+    text-align: center;
     font-size: 16px;
     color: gray;
   }
@@ -38,7 +46,7 @@ permalink: /
     color: #555;
   }
   .links {
-    text-align: center; /* 代码链接居中对齐 */
+    text-align: center;
   }
   .links img {
     width: 80px;
@@ -49,17 +57,16 @@ permalink: /
     font-size: 18px;
     color: #007bff;
   }
-  /* Abstract, Methodology, Dataset 和 Results 都是居左对齐 */
   .left-align {
     text-align: left;
-    margin: 0 20px; /* 添加左右边距 */
+    margin: 0 20px;
   }
 </style>
 
 # **A CoLight-DDQN Approach for Adaptive Traffic Signal Control**
 
 <div class="author">
-  <p><strong>Tongyu Liu</strong><sup>1</sup> &nbsp;&nbsp;
+  <p><strong>Tongyu Liu</strong><sup>1</sup> &nbsp;&nbsp; 
   <strong>Zile Wang</strong><sup>1</sup> &nbsp;&nbsp;
   <strong>Alaa Khamis Rashwan</strong><sup>1,2</sup></p>
   <p><sup>1</sup> University of Toronto &nbsp;&nbsp; <sup>2</sup> KFUPM</p>
