@@ -113,11 +113,7 @@ Traffic Signal Control (TSC) is a critical challenge in the optimization of urba
 <p>The final throughput results are presented in Table II, which is the average number calculated in every 300s. When using Pressure as the observation set, MaxPressure generally achieves higher throughput. However, when Efficient Pressure (E-Pressure) and ATS are used as the observation set, the other three methods outperform MaxPressure. Notably, our CoLight-DDQN method, when combined with ATS as the observation set, achieves the best performance across the entire Jinan dataset.From a methodological perspective, while MaxPressure demonstrates its effectiveness when using the naive Pressure observation, the additional information provided by Efficient Pressure and ATS allows CoLight-DDQN to outperform the other approaches. MPLight performs well on smaller traffic datasets but exhibits poor performance on the full dataset. In contrast, CoLight-based methods demonstrate strong adaptability across all scenarios.</p>
 
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/dataset.png" alt="Image description" width="800" />
-</div>
-
-<div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/dataset.png" alt="Image description" width="800" />
+    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/table.png" alt="Image description" width="800" />
 </div>
 
 <p>We also illustrate the average travel time and throughput curves of 3 RL methods for the two datasets over training rounds 15 to 80 to study their learning performance. Since the early stages of training are unstable, we visualize only the final 65 rounds to highlight the effects of training. The results are consistent with the average travel time analysis, confirming that CoLight-DDQN achieves the lowest average travel time. Additionally, the training process with DDQN exhibits significantly greater stability compared to DQN, with substantially fewer fluctuations, demonstrating the advantages of our approach. However, some sudden dips and spikes are observed in the curves, which can be attributed to outliers when the Q-network converges to a local optimum; these deviations are quickly corrected in subsequent steps. Among all methods, CoLight-DDQN with ATS exhibits the fewest dips and spikes, further validating its stability and robustness in training.</p>
