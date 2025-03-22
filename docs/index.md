@@ -125,5 +125,5 @@ Traffic Signal Control (TSC) is a critical challenge in the optimization of urba
 
 ### **Related links**
 <div class="left-align">
-The CoLight-DDQN is implemented with the codebase of [CoLight](https://github.com/wingsweihua/colight), [MPLight](https://github.com/Chacha-Chen/MPLight), [Advanced_XLight](https://github.com/LiangZhang1996/Advanced_XLight), [Efficient_XLight](https://github.com/LiangZhang1996/Efficient_XLight)
+The CoLight-DDQN is implemented with the codebase of <a href="https://github.com/wingsweihua/colight" target="_blank" style="color: blue; text-decoration: underline;">CoLight</a>, <a href="https://github.com/Chacha-Chen/MPLight" target="_blank" style="color: blue; text-decoration: underline;">MPLight</a>, <a href="https://github.com/LiangZhang1996/Advanced_XLight" target="_blank" style="color: blue; text-decoration: underline;">Advanced_XLight</a>, <a href="https://github.com/LiangZhang1996/Efficient_XLight" target="_blank" style="color: blue; text-decoration: underline;">Efficient_XLight</a>.
 </div>
