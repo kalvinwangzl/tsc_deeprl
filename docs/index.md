@@ -8,7 +8,7 @@ permalink: /
   body {
     text-align: left;
     font-family: Arial, sans-serif;
-    margin: 0 20px;
+    margin: 15 100px;
     padding: 0;
   }
   h1 {
@@ -59,7 +59,7 @@ permalink: /
   }
   .left-align {
     text-align: left;
-    margin: 0 20px;
+    margin: 0 100px;
   }
 </style>
 
