@@ -63,7 +63,7 @@ Ranked **5th** in the **VOTS Challenge** at **ECCV 2024**
 <div class="links">
   <a href="https://github.com/kalvinwangzl/Traffic-Signal-Control-with-CoLight-DDQN">
     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Code" width="50">
-    <br>**Code**
+    <br>Code
   </a>
 </div>
 
