@@ -8,7 +8,7 @@ permalink: /
   body {
     text-align: left;
     font-family: Arial, sans-serif;
-    margin: 15 100px;
+    margin: 20 200px;
     padding: 0;
   }
   h1 {
@@ -22,7 +22,7 @@ permalink: /
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 20px;  /* 为标题添加页边距 */
+    margin-left: 200px;  /* 为标题添加页边距 */
   }
   .subtitle {
     text-align: center;
@@ -59,7 +59,7 @@ permalink: /
   }
   .left-align {
     text-align: left;
-    margin: 0 100px;
+    margin: 0 200px;
   }
 </style>
 
