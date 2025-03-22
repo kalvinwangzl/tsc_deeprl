@@ -6,22 +6,26 @@ permalink: /
 
 <style>
   body {
-    text-align: center;
+    text-align: left; /* 将正文内容居左对齐 */
     font-family: Arial, sans-serif;
   }
   h1 {
+    text-align: center; /* 标题居中对齐 */
     font-size: 36px;
     font-weight: bold;
   }
   .subtitle {
+    text-align: center; /* 子标题居中对齐 */
     font-size: 22px;
     font-weight: normal;
   }
   .author {
+    text-align: center; /* 作者居中对齐 */
     font-size: 18px;
     margin: 5px 0;
   }
   .affiliation {
+    text-align: center; /* 所属机构居中对齐 */
     font-size: 16px;
     color: gray;
   }
@@ -29,6 +33,9 @@ permalink: /
     font-size: 20px;
     font-weight: bold;
     color: #555;
+  }
+  .links {
+    text-align: center; /* 代码链接居中对齐 */
   }
   .links img {
     width: 80px;
@@ -56,8 +63,6 @@ permalink: /
   </a>
 </div>
 
-<div style="text-align: left; display: block;">
-
 ### **Abstract**
 在这里写你的文章摘要...
 
@@ -72,4 +77,3 @@ permalink: /
 ### **Results**
 在这里放实验图表，描述实验结果...
 
-</div>
