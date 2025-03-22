@@ -82,6 +82,11 @@ permalink: /
   </a>
 </div>
 
+<div style="text-align: center;">
+    <img src="https://github.com/kalvinwangzl/tsc_deeprl/blob/main/docs/img/dataset.png" alt="Image description" width="500" />
+</div>
+
+
 ### **Abstract**
 <div class="left-align">
 Traffic Signal Control (TSC) is a critical challenge in the optimization of urban traffic networks, where efficient management of traffic flow is essential for improving transportation systems. While traditional TSC methods are effective in specific scenarios, they often struggle to adapt to the dynamic and complex nature of real-world traffic environments. In recent years, Reinforcement Learning (RL) methods have gained traction due to their ability to continuously learn and adapt to fluctuations in traffic flow. This paper investigates the selection of environmental observation states and Q-network architectures within the framework of Deep Q-Learning for TSC.  We propose an approach that integrates the CoLight model, which utilizes a graph attention block, with Double Deep Q-Networks (DDQN) to enhance the stability and performance of the learning process. The proposed CoLight-DDQN method is evaluated through extensive experiments, including tests on datasets from both Jinan and Hangzhou, showing its superior ability to reduce intersection travel time and increase throughput when compared to existing state-of-the-art TSC methods. These results highlight the robustness and adaptability of the CoLight-DDQN framework in optimizing traffic signal control across different urban environments.
