@@ -61,18 +61,8 @@ Ranked **5th** in the **VOTS Challenge** at **ECCV 2024**
 
 ### **论文 & 代码**
 <div class="links">
-  <a href="你的论文链接">
-    <img src="你的论文图片链接" alt="Paper">
-    <br>**Paper**
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="你的补充材料链接">
-    <img src="你的补充材料图片链接" alt="Supplementary">
-    <br>**Supplementary**
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="你的GitHub链接">
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Code">
+  <a href="https://github.com/kalvinwangzl/Traffic-Signal-Control-with-CoLight-DDQN">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Code" width="50">
     <br>**Code**
   </a>
 </div>
@@ -85,7 +75,6 @@ Ranked **5th** in the **VOTS Challenge** at **ECCV 2024**
 ### **数据集与实验**
 在这里写数据集的介绍以及实验方法...
 
----
 
 ### **实验结果**
 在这里放实验图表，描述实验结果...
