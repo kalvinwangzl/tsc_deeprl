@@ -15,6 +15,8 @@ permalink: /
     text-align: center;
     font-size: 36px;
     font-weight: bold;
+    margin-left: 200px;  
+    margin-right: 200px;
   }
   h3 {
     text-align: left;
@@ -23,6 +25,7 @@ permalink: /
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 200px;  /* 为标题添加页边距 */
+    margin-right: 200px;
   }
   .subtitle {
     text-align: center;
