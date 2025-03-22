@@ -83,7 +83,7 @@ permalink: /
 </div>
 
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/dataset.png" alt="Image description" width="500" />
+    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/dataset.png" alt="Image description" width="800" />
 </div>
 
 
