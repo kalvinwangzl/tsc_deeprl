@@ -91,7 +91,7 @@ Traffic Signal Control (TSC) is a critical challenge in the optimization of urba
 </div>
 
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/methodfig.png" alt="Image description" width="600" />
+    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/methodfig.png" alt="Image description" width="800" />
 </div>
 
 ### **Methodology**
