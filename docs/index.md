@@ -90,6 +90,10 @@ permalink: /
 Traffic Signal Control (TSC) is a critical challenge in the optimization of urban traffic networks, where efficient management of traffic flow is essential for improving transportation systems. While traditional TSC methods are effective in specific scenarios, they often struggle to adapt to the dynamic and complex nature of real-world traffic environments. In recent years, Reinforcement Learning (RL) methods have gained traction due to their ability to continuously learn and adapt to fluctuations in traffic flow. This paper investigates the selection of environmental observation states and Q-network architectures within the framework of Deep Q-Learning for TSC.  We propose an approach that integrates the CoLight model, which utilizes a graph attention block, with Double Deep Q-Networks (DDQN) to enhance the stability and performance of the learning process. The proposed CoLight-DDQN method is evaluated through extensive experiments, including tests on datasets from both Jinan and Hangzhou, showing its superior ability to reduce intersection travel time and increase throughput when compared to existing state-of-the-art TSC methods. These results highlight the robustness and adaptability of the CoLight-DDQN framework in optimizing traffic signal control across different urban environments.
 </div>
 
+<div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/method.png" alt="Image description" width="600" />
+</div>
+
 ### **Methodology**
 <div class="left-align">
 <p>The proposed CoLight-DDQN approach integrates Deep Q-learning into the traffic signal control problem by designing and comparing different state representations for traffic environment observation and network architectures. The following subsections provide a detailed explanation of the observation of environmental states and the Q-network structures.</p>
@@ -103,10 +107,13 @@ Traffic Signal Control (TSC) is a critical challenge in the optimization of urba
     <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/dataset.png" alt="Image description" width="600" />
 </div>
 
+<div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/kalvinwangzl/tsc_deeprl/refs/heads/main/docs/img/volume.png" alt="Image description" width="600" />
+</div>
 
 ### **Results**
 <div class="left-align">
-<p>We conducted experiments on 3 sub-datasets of Jinan traffic flow dataset, which contains 12 (3×4) intersections, and Hangzhou traffic flow dataset, which contains 16 (4×4) intersections. All the intersections have four incoming and outgoing roads. For Jinan dataset the three sub-datasets are 1: whole real time data, 2: real data with 2000 vehicles and 3: real data with 2500 vehicles. We mainly evaluate the methods on Jinan dataset and test the adaptation ability of the methods on Hangzhou dataset to confirm the adaptive ability of these methods.</p>
+<p>We conducted experiments on 3 sub-datasets of Jinan traffic flow dataset, which contains 12 (3×4) intersections, and Hangzhou traffic flow dataset, which contains 16 (4×4) intersections. All the intersections have four incoming and outgoing roads. For Jinan dataset the three sub-datasets are 1: whole real time data, 2: real data with 2000 vehicles and 3: real data with 2500 vehicles. The visualization as well as the volume of two datsets are shown above. We mainly evaluate the methods on Jinan dataset and test the adaptation ability of the methods on Hangzhou dataset to confirm the adaptive ability of these methods.</p>
 
 <p>The final average travel time results are presented in Table I. The results indicate that incorporating ATS significantly enhances performance compared to Efficient Pressure and Pressure, while Efficient Pressure achieves slightly better results than Pressure. This demonstrates the importance of accounting for both efficient pressure, which reflects stationary vehicles, and the demand of moving vehicles. Furthermore, the findings confirm that modifying the observation in this manner is effective across all Deep Q-learning mechanisms.</p>
 
