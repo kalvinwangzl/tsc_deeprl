@@ -71,7 +71,7 @@ permalink: /
 <div class="author">
   <p><strong>Tongyu Liu</strong><sup>1</sup> &nbsp;&nbsp; 
   <strong>Zile Wang</strong><sup>1</sup> &nbsp;&nbsp;
-  <strong>Alaa Khamis Rashwan</strong><sup>2</sup></p>
+  <strong>Alaa Khamis</strong><sup>2</sup></p>
   <p><sup>1</sup> University of Toronto &nbsp;&nbsp; <sup>2</sup> KFUPM</p>
 </div>
 
